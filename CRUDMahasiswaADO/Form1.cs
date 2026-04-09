@@ -11,9 +11,7 @@ using System.Data.SqlClient;
 using System.Drawing.Text;
 using System.Runtime.CompilerServices;
 
-namespace CRUDMahasiswaADO
-{
-    public partial class Form1 : Form
+
     {
         private readonly SqlConnection conn;
         private readonly string connectionString =
